@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necesario para reiniciar la escena
 
 public class DanoMurcielago : MonoBehaviour
 {
@@ -9,11 +8,11 @@ public class DanoMurcielago : MonoBehaviour
         {
             Debug.Log("¡Chocaste con los murciélagos!");
 
-            // Opción 1: Reiniciar el nivel actual
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-            // Opción 2: Si tienes un GameManager, puedes llamar a una función de muerte:
-            // GameManager.instance.JugadorMurio();
+            // Llamamos a la función del GameManager para mostrar el panel de récord
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.PerderJuego();
+            }
         }
     }
 }

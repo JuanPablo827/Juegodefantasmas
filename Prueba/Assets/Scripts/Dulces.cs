@@ -13,7 +13,7 @@ public class Dulces : MonoBehaviour
     {
         posInicial = transform.position;
         offset = Random.Range(0.0f, 100.0f);
-        transform.Rotate(0, Random.Range(0.0f, 360.0f),0);
+        transform.Rotate(0, Random.Range(0.0f, 360.0f), 0);
     }
     void Update()
     {
@@ -24,8 +24,21 @@ public class Dulces : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        // Esto imprimirá en la consola de Unity CUALQUIER cosa que toque al dulce
+        Debug.Log("¡ALGUIEN tocó el dulce! Es el objeto: " + other.gameObject.name + " con Tag: " + other.tag);
+
+        if (other.CompareTag("Player"))
         {
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.SumarDulce();
+                Debug.Log("¡GameManager encontrado y punto sumado!");
+            }
+            else
+            {
+                Debug.LogError("¡ALERTA! El GameManager es nulo (null) en esta escena.");
+            }
+
             Destroy(gameObject);
         }
     }
