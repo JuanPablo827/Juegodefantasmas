@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7665486672378649507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226655913919883332}
+  m_Layer: 0
+  m_Name: Prueba2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226655913919883332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665486672378649507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 0.34, z: 14.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 75167768676280851}
+  - {fileID: 4123267563104018741}
+  - {fileID: 5374210763496492666}
+  - {fileID: 8235690321079814525}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1619503280958388310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 226655913919883332}
+    m_Modifications:
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583600657604994209, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_Name
+      value: Dulces  (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+--- !u!4 &8235690321079814525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+  m_PrefabInstance: {fileID: 1619503280958388310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3361837229889912657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 226655913919883332}
+    m_Modifications:
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583600657604994209, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_Name
+      value: Dulces  (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+--- !u!4 &5374210763496492666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+  m_PrefabInstance: {fileID: 3361837229889912657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6704284320266965022
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 226655913919883332}
+    m_Modifications:
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583600657604994209, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_Name
+      value: Dulces  (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+--- !u!4 &4123267563104018741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+  m_PrefabInstance: {fileID: 6704284320266965022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7294038912619338552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 226655913919883332}
+    m_Modifications:
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583600657604994209, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+      propertyPath: m_Name
+      value: 'Dulces '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+--- !u!4 &75167768676280851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7220023441860030763, guid: 6bafd87950ab1374484a29fd7edc96f9, type: 3}
+  m_PrefabInstance: {fileID: 7294038912619338552}
+  m_PrefabAsset: {fileID: 0}
